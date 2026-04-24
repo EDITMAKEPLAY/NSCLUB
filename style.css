@@ -121,7 +121,6 @@ nav ul li a {
     color: black;
     font-weight: bold;
     padding: 5px 10px;
-    -webkit-user-drag: none;
     font-size: 14px;
     transition: all 0.3s ease;
 }
@@ -151,10 +150,14 @@ nav ul li.active a {
     padding: 15px;
     border-radius: 10px;
     background: linear-gradient(to right, rgb(255, 146, 224), rgb(255, 255, 255));
+    display: flex;
+    align-items: center;
 }
 
+
+
 .event:hover{
-    box-shadow: 0 0 20px 5px #e048db;
+    box-shadow: 0 0 10px 5px #ffedfe;
     transform: scale(1.02);
 }
 
@@ -176,6 +179,7 @@ nav ul li.active a {
 [type="karaoke"]{
     box-shadow: -5px 0 0 0 var(--karaoke);
 }
+
 
 
 .menu-toggle {
@@ -286,6 +290,25 @@ nav ul li.active a {
     margin-top: 20px;
 }
 
+.BIGDATE{
+    font-size: 32px !important;
+    font-weight: bold;
+    color: #333333;
+    margin-left: auto;
+    text-align: center;
+}
+
+
+.dj {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.theme{
+    font-size: 18px;
+    color: #ff00e1 !important;
+}
 
 footer {
     text-align: center;
