@@ -278,6 +278,13 @@ nav ul li.active a {
     display: block;
 }
 
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
 
 footer {
     text-align: center;
