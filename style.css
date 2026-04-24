@@ -47,7 +47,6 @@ table {
     border-collapse: collapse;
     margin-top: 20px;
     text-align: center;
-
 }
 
 table th, table td {
@@ -250,6 +249,8 @@ nav ul li.active a {
     background-color: #F4F4F4;
     padding: 15px;
     border-radius: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 .texte a {
@@ -428,7 +429,19 @@ footer {
 
     .texte {
         padding: 10px;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
+
+    table {
+        font-size: 14px;
+    }
+    min-width: 500px;
+    }
+
+    table th, table td {
+        padding: 6px 4px;
+        font-size: 13
 
     nav ul li {
         padding: 10px 15px;
