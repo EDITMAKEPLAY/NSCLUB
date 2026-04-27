@@ -1,4 +1,4 @@
-/* Navigation Active Detection */
+
 document.addEventListener('DOMContentLoaded', function() {
     const currentPage = window.location.pathname.split('/').pop() || 'index.html';
     
